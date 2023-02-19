@@ -72,6 +72,31 @@ a{
     width: 600px;
     height: 200px;
 }
+.info-title{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 32px 0;
+    text-align: center;
+}
+.info-main{
+    padding: 0 300px 90px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    text-align: center;
+}
+.info-card{
+    max-width: 150px;
+    text-align: center;
+}
+
+.placeholder>img{
+    width: 125px;
+    height: 125px;
+    border-radius: 4px;
+    border-color: #1F2937;
+}
 .quote{
     background-color: #e5e7eb;
     font-size: 36px;

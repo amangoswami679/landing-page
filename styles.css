@@ -1,10 +1,11 @@
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: Inter,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 body{
-    height: 100vh;
+    /*height: 100vh;*/
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -18,7 +19,7 @@ body{
 .header{
     justify-content: space-between;
     align-items: center;
-    padding: 20px 150px;
+    padding: 20px 300px;
 }
 .footer{
     align-items: center;
@@ -38,4 +39,86 @@ body{
 a{
     text-decoration: none;
     color: #e5e7eb;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.hero-main{
+    background-color: #1F2937;
+    display: flex;
+    padding: 90px 300px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-main-text{
+    width: 40%;
+}
+.hero-main-text > *{
+    margin-bottom: 2px;
+}
+.super{
+    font-weight: 900;
+    font-size: 48px;
+    color: #f9faf8;
+}
+.sub{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.img-placeholder{
+    width: 600px;
+    height: 200px;
+}
+.quote{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    padding: 90px 400px;
+}
+#author{
+    text-align: right;
+    font-weight: 700;
+    font-style: normal;
+    font-size: medium;
+}
+.cta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 90px 300px;
+}
+.cta-main{
+    display: flex;
+    background-color: #3882f6;
+    padding: 45px 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 7px;
+}
+.cta-main-left{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.cta-main-left>#p1{
+    font-weight: bolder;
+}
+.cta-main-right>.btn{
+    border-color: white;
+}
+.btn{
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: #ffffff;
+    border-style: solid;
+    border-color: #3882f6;
+    font-weight: bolder;
+    font-size: 16px;
 }
